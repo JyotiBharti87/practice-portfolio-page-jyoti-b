@@ -1,39 +1,93 @@
-
+/* Page styling */
 body {
-  background-color:bisque
+  background-color: aliceblue;
+  padding: 30px;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-header{
-    text-align: center;
+/* Header */
+header {
+  text-align: center;
 }
+
 h1 {
-    
-    color:#b166ee;
+  color: #06D6A0;
 }
-#aboutMe{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: larger;
-    color:rgb(99, 37, 170);
+
+/* About section */
+#aboutMe {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  color: rgb(99, 37, 170);
+  margin-bottom: 40px;
 }
-#skills{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:#8317db;
+#aboutMe p {
+  font-size: 18px;
+  line-height: 1.6;
+  color:#EF476F;
 }
-#hobbies{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:rgb(7, 50, 131);
+
+/* Skills & Hobbies layout */
+.two-sections {
+  display: flex;
+  gap: 40px;
+  margin: 40px 0;
 }
-section{
-    color: #d31ebb;
+
+/* Individual cards */
+.two-sections section {
+  flex: 1;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  color: #EF476F;
 }
-table{
-    font-size: large;
-    background-color: #c5dddc;
+
+/* Headings */
+#skills {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #25073d;
 }
-.myFooter{
-    color:rgb(85, 85, 221)
+
+#hobbies {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+  color: rgb(7, 50, 131);
 }
+
+section h2 {
+  margin-bottom: 16px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: large;
+  background-color: #fff1d0;
+}
+
+th, td {
+  padding: 10px 14px;
+}
+
+/* List spacing */
+ul li {
+  margin-bottom: 8px;
+}
+
+/* Footer */
+.myFooter {
+  margin-top: 40px;
+  color: rgb(85, 85, 221);
+}
+
+/* Button */
 button {
-    background-color: rgb(214, 216, 224);
-    color:brown;
+  background-color: rgb(214, 216, 224);
+  color: brown;
+  padding: 10px 16px;
+  border: black;
+  border-radius: 6px;
 }
